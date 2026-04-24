@@ -1,0 +1,29 @@
+.menu {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(to right,#020617, #1e1b14);
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+}
+a {
+ text-decoration: none;
+ color: #fff;
+ margin-right: 35px;
+ font-size: 30px;
+}
+.volei1 {
+  width: 200px;
+  height: 200px;
+}
+fieldset {
+  background-color: dimgray;
+  color: #fff;
+}
+legend {
+  color: #fff;
+  background-color: dimgray;
+  border-radius: 3px;
+}
