@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>login</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <center><div class="div"><h1>login</h1>
+  <p class="p">login simples para cadastro</p>
+  <input id="nome" type="text" placeholder="Username"><br><br>
+  <input id="senha" type="password" placeholder="senha"><br><br>
+  <button onclick="txt()">confirmar</button>
+  </div></center><br><center><details><summary>saiba sobre :</summary><p>o site CAVALO nao coleta seus dados e é meramente teste, favor nao copiar o site, apenas se inspirar</p></details></center>
+  <dialog id="pop up">
+    <h3 id="h3dialog"></h3>
+    <a id="linkdialog" href="index.html"></a><br><br>
+    <button onclick="fechar()">fechar</button>
+  </dialog>
+<script>
+  function txt() {
+let nome = document.getElementById("nome").value
+let senha = document.getElementById("senha").value
+let dialog = document.getElementById("pop up")
+dialog.showModal()
+if (nome == "" && senha == "") {
+  document.getElementById("h3dialog").textContent = "Escreva algo!"
+  document.getElementById("h3dialog").style.color = "red"
+}
+else if (nome == "Player" || senha == "12345678") {
+  document.getElementById("h3dialog").textContent = "essa senha ou nome é muito simples"
+  document.getElementById("h3dialog").style.color = "red"
+}
+else {
+  document.getElementById("h3dialog").textContent = "login confirmado!"
+  document.getElementById("linkdialog").textContent = "ir ao site"
+  document.getElementById("h3dialog").style.color = "green"
+}
+  } 
+function fechar() {
+ let dialog = document.getElementById("pop up")
+dialog.close()
+}
+</script>
+</body>
+</html>
