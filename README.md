@@ -10,3 +10,5 @@ javascript (interatividade básica)
 - contador de cliques
 - formulário de login
 - janela dialog
+- lógica simples com if e else if
+- menu de abas (simples)
