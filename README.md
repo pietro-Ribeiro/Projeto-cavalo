@@ -12,3 +12,5 @@ javascript (interatividade básica)
 - janela dialog
 - lógica simples com if e else if
 - menu de abas (simples)
+
+observação: as fotos deram errado, não concertarei no gitHub
