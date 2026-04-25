@@ -15,7 +15,7 @@ javascript (interatividade básica)
 
 sobre as fotos: as fotos deram errado, não concertarei no gitHub
 
-#função dos htmls :
+# função dos htmls :
 index.html : contador de cliques e menu de abas
 
 cavalo.html
