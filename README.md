@@ -11,6 +11,17 @@ javascript (interatividade básica)
 - formulário de login
 - janela dialog
 - lógica simples com if e else if
-- menu de abas (simples)
+- menu de abas 
 
-observação: as fotos deram errado, não concertarei no gitHub
+sobre as fotos: as fotos deram errado, não concertarei no gitHub
+
+index.html : contador de cliques e menu de abas
+cavalo.html : teste de galeria/fotos
+login.html : login com dialog e lógica básica de js
+
+## observação
+esse projeto foi feito antes do meu aprendizado de flexbox (css)
+
+esse projeto foi feito antes do meu aprendizado de localStorage, sessionStorage, fetch, try/catch, etc
+
+esse projeto já foi finalizado, só haverá edições se for algo muito recorrente
