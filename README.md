@@ -22,7 +22,6 @@ cavalo.html : teste de galeria/fotos
 login.html : login com dialog e lógica básica de js
 
 ## nota técnica e contexto :
-neste projeto eu não utilize flexbox (css)
 
 esse projeto foi feito sem aprendizado de localStorage, sessionStorage, fetch, try/catch, etc
 
