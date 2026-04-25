@@ -15,8 +15,12 @@ javascript (interatividade básica)
 
 sobre as fotos: as fotos deram errado, não concertarei no gitHub
 
+#função dos htmls :
 index.html : contador de cliques e menu de abas
-cavalo.html : teste de galeria/fotos
+
+cavalo.html
+ : teste de galeria/fotos
+
 login.html : login com dialog e lógica básica de js
 
 ## observação
